@@ -9,6 +9,13 @@ set number relativenumber
 set wildmenu
 ```
 
+search the help section:
+```vim
+helpgrep
+copen
+cclose
+```
+
 Start vim without any config:
 ```bash
 vim -u NONE
