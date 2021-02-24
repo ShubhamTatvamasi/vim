@@ -8,3 +8,9 @@ set backspace=indent,eol,start
 set number relativenumber
 set wildmenu
 ```
+
+Start vim without any config:
+```bash
+vim -u NONE
+```
+
