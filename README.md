@@ -14,3 +14,7 @@ Start vim without any config:
 vim -u NONE
 ```
 
+Start vim with the following commands:
+```bash
+vim -c "help | only"
+```
