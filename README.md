@@ -18,3 +18,10 @@ Start vim with the following commands:
 ```bash
 vim -c "help | only"
 ```
+
+vimhelp function:
+```bash
+function vimhelp() {
+  vim -u NONE -c "help $1 | only | syntax enable";
+}
+```
