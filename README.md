@@ -21,6 +21,11 @@ Start vim without any config:
 vim -u NONE
 ```
 
+open file and jump to line 10
+```bash
+vim file +10
+```
+
 Start vim with the following commands:
 ```bash
 vim -c "help | only"
