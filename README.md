@@ -1,6 +1,9 @@
 # vim
 
-cat ~/.vimrc
+```bash
+vim ~/.vimrc
+```
+
 ```vim
 filetype plugin indent on
 syntax on
